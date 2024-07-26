@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.el-aside,
+.el-main {
+    height: calc(100vh - 60px);
+    
+}
+.el-aside{
+    overflow: hidden;
+}
+.el-main{
+    overflow-y: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #303133;
+}
+
+.el-main>.el-button {
+    margin: 0 5px 15px 5px;
+}
+.el-table{
+    max-width: 1450px;
+}
+th>.cell,
+td>.cell {
+    text-align: center;
+}
+td.cell{
+    overflow: hidden;
+}
+.el-button {
+    margin-right: 5px;
+}
